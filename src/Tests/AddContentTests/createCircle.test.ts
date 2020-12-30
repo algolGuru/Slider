@@ -1,8 +1,8 @@
 import ContentType from "../../const/ContentType";
-import createCircle from "../../Methods/AddContent/createCircle";
-import Circle from "../../Model/Slide/Content/shape/Circle";
-import Content from "../../Model/Slide/Content/Content";
-import getDefaultEditor from "../../Methods/AddContent/getDefaultEditor";
+import createCircle from "../../methods/addContent/createCircle";
+import getDefaultEditor from "../../methods/addContent/getDefaultEditor";
+import Content from "../../model/slide/content/Content";
+import Circle from "../../model/slide/content/shape/Circle";
 import throwNewExeption from "../Exeption";
 
 function isCircle(content: Content): content is Circle {

@@ -1,4 +1,4 @@
-import Shape from "../../../../Model/Slide/Content/Shape"
+import Shape from "../Shape"
 
 type Circle = Shape & {
 	radius: number,

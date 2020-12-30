@@ -1,4 +1,4 @@
-import Content from "../../Model/Slide/Content/Content"
+import Content from "./content/Content"
 
 
 export type ContentList = {

@@ -1,10 +1,10 @@
 import ContentType from "../../const/ContentType";
-import getDefaultEditor from "../../Methods/AddContent/getDefaultEditor";
-import getDefaultShape from "../../Methods/AddContent/getParamsOfContent/getDefaultShape";
-import { getDefaultTextContainer } from "../../Methods/AddContent/getParamsOfContent/getDefaultTextContainer";
-import { updateRichTextColor, updateRichTextFont, updateRichTextValue } from "../../Methods/updateContent/updateRichText";
-import Content from "../../Model/Slide/Content/Content"
-import TextContainer from "../../Model/Slide/Content/TextContainer";
+import getDefaultEditor from "../../methods/addContent/getDefaultEditor";
+import getDefaultShape from "../../methods/addContent/getParamsOfContent/getDefaultShape";
+import { getDefaultTextContainer } from "../../methods/addContent/getParamsOfContent/getDefaultTextContainer";
+import { updateRichTextColor, updateRichTextFont, updateRichTextValue } from "../../methods/updateContent/updateRichText";
+import Content from "../../model/slide/content/Content";
+import TextContainer from "../../model/slide/content/TextContainer";
 import throwNewExeption from "../Exeption";
 
 function isTextCntainer(content: Content): content is TextContainer {

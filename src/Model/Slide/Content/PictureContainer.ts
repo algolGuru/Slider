@@ -1,4 +1,4 @@
-import Content from "../../../Model/Slide/Content/Content"
+import Content from "./Content"
 import Image from "./components/Image";
 
 type PictureContainer = Content & {

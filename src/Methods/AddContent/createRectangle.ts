@@ -1,10 +1,10 @@
 import ContentType from "../../const/ContentType";
-import Editor from "../../Model/Editor";
-import Rectangle from "../../Model/Slide/Content/shape/Rectangle";
+import Editor from "../../model/Editor";
+import Rectangle from "../../model/slide/content/shape/Rectangle";
+import generateUuid from "../generateUuid";
 import getDefaultPosition from "./getParamsOfContent/getDefaultPosition";
 import getDefaultRectangleSize from "./getParamsOfContent/getDefaultRectangleSize";
 import getDefaultShape from "./getParamsOfContent/getDefaultShape";
-import generateUuid from "../generateUuid";
 
 function createRectangle(editor: Editor): Editor {
 	//TODO: ✅ попробовать деструктуризацию вместо object.assign

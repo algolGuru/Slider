@@ -1,4 +1,4 @@
-import Point from "../../../Model/Slide/Content/Point"
+import Point from "./Point"
 
 type  Content = {
 	position: Point,

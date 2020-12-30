@@ -1,5 +1,4 @@
-import { getDefaultTextContainer } from "../../Methods/AddContent/getParamsOfContent/getDefaultTextContainer";
-
+import { getDefaultTextContainer } from "../../methods/addContent/getParamsOfContent/getDefaultTextContainer";
 
 describe('getDefaultContentTests', () => {
     test('getDefaultContentPositionTest', () => {
@@ -8,7 +7,7 @@ describe('getDefaultContentTests', () => {
 
     test('getDefaultContentPositionlayer', () => {
         expect(getDefaultTextContainer().richText).toStrictEqual({
-            color: '#ffffff',
+            color: '#000000',
             font: 12,
             value: 'new Text'
         });

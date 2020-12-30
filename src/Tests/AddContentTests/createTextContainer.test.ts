@@ -1,11 +1,10 @@
 import ContentType from "../../const/ContentType";
-import createTextContainer from "../../Methods/AddContent/createTextContainer";
-import getDefaultEditor from "../../Methods/AddContent/getDefaultEditor";
-import { getDefaultTextContainer } from "../../Methods/AddContent/GetParamsOfContent/getDefaultTextContainer";
-import Content from "../../Model/Slide/Content/Content";
-import TextContainer from "../../Model/Slide/Content/TextContainer";
+import createTextContainer from "../../methods/addContent/createTextContainer";
+import getDefaultEditor from "../../methods/addContent/getDefaultEditor";
+import { getDefaultTextContainer } from "../../methods/addContent/getParamsOfContent/getDefaultTextContainer";
+import Content from "../../model/slide/content/Content";
+import TextContainer from "../../model/slide/content/TextContainer";
 import throwNewExeption from "../Exeption";
-
 
 const editor = getDefaultEditor();
 function isTextCntainer(content: Content): content is TextContainer {

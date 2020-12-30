@@ -1,5 +1,5 @@
 import {Component} from "react";
-import {Content} from "./Content";
+import {Content} from "./content";
 
 export class Editor extends Component {
 	render() {
